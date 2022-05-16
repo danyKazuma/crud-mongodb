@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="1089a73d-c5f9-449a-b17c-c8e740ac05b1" activeEnvironment="Default" name="REST Project 23" soapui-version="5.7.0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormBase Path"/><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormTarget File"/><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormFormat">json</con:setting><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormAPI Version">Swagger 2.0</con:setting><con:setting id="com.smartbear.swagger.ExportSwaggerAction$FormSwagger Version">Swagger 2.0</con:setting></con:settings><con:interface xsi:type="con:RestService" id="997e3146-ac81-445f-a77f-566e3c0b483c" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8080" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://localhost:8080</con:endpoint></con:endpoints><con:resource name="Create" path="/customer/create" id="efb8c4c1-869e-4572-bfe9-72bf51c97836"><con:settings/><con:parameters/><con:method name="Create 1" id="21c36ba0-0ef8-40bd-ac72-1d3e1a834775" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>text/plain;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="e864a941-87ae-40f1-a1c4-dc629ce1a0b1" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8080</con:endpoint><con:request>{
+	"id":"1f8bf401-6d78-4cf7-9d32-562b38f21886",
+	"name":"Dany",
+	"iedad":34,
+	"sdistrito":"La Victoria",
+	"sdireccion":"Av. Manco Capac 596",
+	"stelefono":"993444584",
+	"sestado":"soltero",
+	"benable":true,
+	"sdocumentType":"DNI",
+	"sapellidoMaterno":"Chavez",
+	"sdocumentNumber":"44544400",
+	"sapellidoPaterno":"Pimentel"
+}</con:request><con:originalUri>http://localhost/customer/create</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
