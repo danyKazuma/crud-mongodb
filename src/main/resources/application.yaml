@@ -1,0 +1,37 @@
+spring:
+  data:
+    mongodb:
+      uri: >-
+        mongodb+srv://danychavez:nttdata@bootcamp.grkfi.mongodb.net/myFirstDatabase
+      database: Bancario
+  kafka:
+    bootstrap-servers: 'kafkaserver:9092'
+    consumer:
+      group-id: myGroup
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost:9092
+      bindings:
+        saludos-in:
+          destination: saludos
+          contentType: application/json
+        saludos-out:
+          destination: saludos
+          contentType: application/json
+'#sprint':
+  data:
+    mongodb:
+      port: '27017'
+sprint:
+  data:
+    mongodb:
+      username: danychavez
+      password: nttdata
+message:
+  topic:
+    name: '${topicname}'
+    name2: '${topicname2}'
+  group:
+    name: '${groupid}'
